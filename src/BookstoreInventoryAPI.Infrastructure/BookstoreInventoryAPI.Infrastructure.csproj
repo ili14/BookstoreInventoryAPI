@@ -15,4 +15,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="../BookstoreInventoryAPI.Application/BookstoreInventoryAPI.Application.csproj" />
+    <ProjectReference Include="../BookstoreInventoryAPI.Domain/BookstoreInventoryAPI.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

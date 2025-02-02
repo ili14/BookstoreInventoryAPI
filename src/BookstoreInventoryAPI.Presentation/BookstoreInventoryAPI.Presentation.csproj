@@ -13,11 +13,14 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="../BookstoreInventoryAPI.Application/BookstoreInventoryAPI.Application.csproj" />
     <ProjectReference Include="../BookstoreInventoryAPI.Domain/BookstoreInventoryAPI.Domain.csproj" />
+    <ProjectReference Include="../BookstoreInventoryAPI.Infrastructure/BookstoreInventoryAPI.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
