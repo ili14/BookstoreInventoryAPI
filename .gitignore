@@ -1,0 +1,58 @@
+# Ignore .NET build artifacts
+bin/
+obj/
+
+# Ignore local development files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.userosscache
+*.sln.iml
+
+# Ignore NuGet packages and restore files
+.nuget/
+NuGet.exe
+NuGet.Config
+packages/
+
+# Ignore local development settings
+appsettings.Development.json
+
+# Ignore compiled outputs
+*.dll
+*.pdb
+*.exe
+*.cache
+
+# Ignore test results
+TestResults/
+
+# Ignore Azure Functions local settings
+local.settings.json
+
+# Ignore Rider-specific files
+*.idea/
+*.sln.iml
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore SQLite database files
+*.db
+*.sqlite
+
+# Ignore logs and diagnostics
+logs/
+*.log
+*.nlog
+*.etl
+
+# Ignore Rider-specific files
+*.idea/
+*.sln.iml
+
+# Ignore Visual Studio Code workspace settings
+.vscode/
