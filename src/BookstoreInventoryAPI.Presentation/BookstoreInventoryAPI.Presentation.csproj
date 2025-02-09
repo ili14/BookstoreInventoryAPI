@@ -19,7 +19,6 @@
 
   <ItemGroup>
     <ProjectReference Include="../BookstoreInventoryAPI.Application/BookstoreInventoryAPI.Application.csproj" />
-    <ProjectReference Include="../BookstoreInventoryAPI.Domain/BookstoreInventoryAPI.Domain.csproj" />
     <ProjectReference Include="../BookstoreInventoryAPI.Infrastructure/BookstoreInventoryAPI.Infrastructure.csproj" />
   </ItemGroup>
 
