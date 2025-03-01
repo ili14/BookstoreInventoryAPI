@@ -19,4 +19,8 @@
     <ProjectReference Include="../BookstoreInventoryAPI.Application/BookstoreInventoryAPI.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repositories/" />
+  </ItemGroup>
+
 </Project>
