@@ -1,4 +1,8 @@
+// بسم الله رحمان رحیم
+// In the name of Allah
 using Application;
+using BookstoreInventoryAPI.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +22,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+builder.Services.AddDbContext<AppDbContext>(opt =>
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("default")));
 
 app.UseHttpsRedirection();
 
